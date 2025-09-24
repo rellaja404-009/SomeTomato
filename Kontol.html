@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Rafflesia Links</title>
+<style>
+  /* Reset and basics */
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    background-color: #000000;
+    color: #ddd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  #container {
+    background-color: #121212;
+    padding: 2.5rem 1.75rem 2.5rem 1.75rem;
+    max-width: 350px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgb(255 20 20 / 0.25);
+    text-align: center;
+  }
+  /* Logo container */
+  .logo {
+    margin-bottom: 0.35rem;
+  }
+  /* The arc with star shape using SVG */
+  .logo svg {
+    width: 56px;
+    height: 56px;
+    stroke: #b10404;
+    fill: none;
+    stroke-width: 1.5;
+    vertical-align: middle;
+  }
+  .logo-text {
+    display: inline-block;
+    color: #b10404;
+    font-weight: 500;
+    font-size: 1.3rem;
+    letter-spacing: 0.15em;
+    vertical-align: middle;
+    margin-left: 0.4rem;
+    user-select: none;
+  }
+  .subheading {
+    font-size: 0.74rem;
+    color: #999;
+    letter-spacing: 0.25em;
+    margin-bottom: 1.8rem;
+    font-weight: 400;
+    user-select: none;
+  }
+  /* Links section */
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    margin-bottom: 2.5rem;
+  }
+  .links a {
+    display: block;
+    background-color: #1c1c1c;
+    border: 1px solid #2e2e2e;
+    color: #ddd;
+    padding: 0.8rem 0;
+    font-weight: 600;
+    text-decoration: underline;
+    border-radius: 6px;
+    transition:
+      background-color 0.25s ease,
+      border-color 0.25s ease,
+      color 0.25s ease;
+  }
+  .links a:hover,
+  .links a:focus-visible {
+    background-color: #b10404;
+    border-color: #b10404;
+    color: #fff;
+    outline: none;
+  }
+  /* Bottom social icons */
+  .socials {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .socials a {
+    background-color: #fff7f7;
+    padding: 0.4rem;
+    border-radius: 6px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    color: #000;
+    text-decoration: none;
+    transition: background-color 0.25s ease, color 0.25s ease;
+  }
+  .socials a:hover,
+  .socials a:focus-visible {
+    background-color: #b10404;
+    color: #fff;
+    outline: none;
+  }
+  /* Instagram and Twitter SVG icons */
+  svg.social-icon {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+  }
+  /* Responsive tweaks */
+  @media (max-width: 400px) {
+    #container {
+      max-width: 90vw;
+      padding: 2rem 1rem 2rem 1rem;
+    }
+  }
+</style>
+</head>
+<body>
+  <main id="container" role="main" aria-label="Personal Links for Rafflesia">
+    <div class="logo" aria-labelledby="site-name-label">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 64 64" role="img">
+        <!-- Simple star with arc shape -->
+        <path d="M32 8 A24 24 0 0 1 56 32 A24 24 0 0 1 32 56 A24 24 0 0 1 8 32 A24 24 0 0 1 32 8 Z" stroke="#b10404" fill="none" />
+        <path d="M32 16 L32 48 M16 32 L48 32 M24 24 L40 40 M40 24 L24 40" stroke="#b10404" />
+      </svg>
+      <span class="logo-text" id="site-name-label">RAFFLESIA.</span>
+    </div>
+    <p class="subheading">A GUY WHO LOVES MUSIC AND EAT.</p>
+
+    <nav class="links" aria-label="External links">
+      <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer" tabindex="0">My TikTok</a>
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" tabindex="0">My Instagram</a>
+      <a href="https://open.spotify.com/" target="_blank" rel="noopener noreferrer" tabindex="0">My Spotify</a>
+      <a href="#" tabindex="0" aria-label="Offensive phrase link">Fuck You</a>
+      <a href="#about" tabindex="0">About Me</a>
+      <a href="#advocacy" tabindex="0">Our Advocacy</a>
+    </nav>
+
+    <section class="socials" aria-label="Social media links">
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram profile" tabindex="0">
+        <svg class="social-icon" aria-hidden="true" role="img" viewBox="0 0 24 24">
+          <path d="M7 2C4.243 2 2 4.243 2 7v10c0 2.757 2.243 5 5 5h10c2.757 0 5-2.243 5-5V7c0-2.757-2.243-5-5-5H7zM12 7a5 5 0 100 10 5 5 0 000-10zm0 1.5a3.5 3.5 0 11-.001 7.001A3.5 3.5 0 0112 8.5zm5-1.75a1.25 1.25 0 11-2.5 0 1.25 1.25 0 012.5 0z"/>
+        </svg>
+      </a>
+      <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="Twitter profile" tabindex="0">
+        <svg class="social-icon" aria-hidden="true" role="img" viewBox="0 0 24 24">
+          <path d="M23 3a10.9 10.9 0 01-3.14.86A4.48 4.48 0 0022.4.4a9.15 9.15 0 01-2.9 1.12 4.52 4.52 0 00-7.75 3.64A12.8 12.8 0 013 2.17 4.52 4.52 0 004.9 9.65a4.48 4.48 0 01-2-.55v.06a4.52 4.52 0 003.62 4.43 4.52 4.52 0 01-2 .08 4.53 4.53 0 004.22 3.14A9.05 9.05 0 012 19.54 12.9 12.9 0 008.29 21c7.55 0 11.68-6.3 11.68-11.76 0-.18-.01-.36-.02-.54A8.18 8.18 0 0023 3z"/>
+        </svg>
+      </a>
+    </section>
+  </main>
+</body>
+</html>
